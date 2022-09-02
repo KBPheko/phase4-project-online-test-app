@@ -1,0 +1,79 @@
+{
+  "id": 1,
+  "name": "Cyber-Security",
+  "description": "A basic cyber-security quiz made up of fundamentals",
+  "questions": [
+    {
+      "id": 1001,
+        "name": " What hacking tool was used by Trinity on the Matrix Movie? ",
+        "questionTypeId": 1,
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1001,
+                "name": "Ettercap",
+                "isCorrect": false
+            },
+            {
+                "id": 1056,
+                "questionId": 1001,
+                "name": "Nmap",
+                "isCorrect": true
+            },
+            {
+                "id": 1057,
+                "questionId": 1001,
+                "name": "CarWhisperer",
+                "isCorrect": false
+            },
+            {
+                "id": 1058,
+                "questionId": 1001,
+                "name": "Aircrack-Ng",
+                "isCorrect": false
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    },
+    {
+      "id": 1002,
+        "name": " What does DDoS stand for? ",
+        "questionTypeId": 1,
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1002,
+                "name": "Distributed Denial of Service Attacks",
+                "isCorrect": true
+            },
+            {
+                "id": 1056,
+                "questionId": 1002,
+                "name": "Double Dose of Service Attacks",
+                "isCorrect": false
+            },
+            {
+                "id": 1057,
+                "questionId": 1002,
+                "name": "Database Denial of Service Attacks",
+                "isCorrect": false
+            },
+            {
+                "id": 1058,
+                "questionId": 1002,
+                "name": "Data Denial of Service Attacks",
+                "isCorrect": false
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    }
+  ]
+}

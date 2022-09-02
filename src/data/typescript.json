@@ -1,0 +1,295 @@
+{
+  "id": 1,
+  "name": "Typescript",
+  "description": "Typescript Quiz for typescript enthuasiasts",
+  "questions": [
+    {
+      "id": 1001,
+        "name": "Which of the following companies has developed and designed TypeScript?",
+        "questionTypeId": 1,
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1001,
+                "name": "Amazon",
+                "isCorrect": false
+            },
+            {
+                "id": 1056,
+                "questionId": 1001,
+                "name": "Typescript",
+                "isCorrect": false
+            },
+            {
+                "id": 1057,
+                "questionId": 1001,
+                "name": "Microsoft",
+                "isCorrect": true
+            },
+            {
+                "id": 1058,
+                "questionId": 1001,
+                "name": "Oracle",
+                "isCorrect": false
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    },
+    {
+      "id": 1001,
+        "name": "Which is the typing principle of typescript?",
+        "questionTypeId": 1,
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1001,
+                "name": "Gradual",
+                "isCorrect": false
+            },
+            {
+                "id": 1056,
+                "questionId": 1001,
+                "name": "Duck",
+                "isCorrect": false
+            },
+            {
+                "id": 1057,
+                "questionId": 1001,
+                "name": "Dynamic",
+                "isCorrect": false
+            },
+            {
+                "id": 1058,
+                "questionId": 1001,
+                "name": "All of the above",
+                "isCorrect": true
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    },
+    {
+      "id": 1001,
+        "name": "Which of the following filenames is the extension for typescript?",
+        "questionTypeId": 1,
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1001,
+                "name": ".tt",
+                "isCorrect": false
+            },
+            {
+                "id": 1056,
+                "questionId": 1001,
+                "name": ".nod",
+                "isCorrect": false
+            },
+            {
+                "id": 1057,
+                "questionId": 1001,
+                "name": ".ts",
+                "isCorrect": true
+            },
+            {
+                "id": 1058,
+                "questionId": 1001,
+                "name": ".txt",
+                "isCorrect": false
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    },
+    {
+      "id": 1001,
+        "name": "Which of the computer programming languanges below has influenced the creation of typescript?",
+        "questionTypeId": 1,
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1001,
+                "name": "JavaScript",
+                "isCorrect": false
+            },
+            {
+                "id": 1056,
+                "questionId": 1001,
+                "name": "Java",
+                "isCorrect": false
+            },
+            {
+                "id": 1057,
+                "questionId": 1001,
+                "name": "C#",
+                "isCorrect": false
+            },
+            {
+                "id": 1058,
+                "questionId": 1001,
+                "name": "All of the above",
+                "isCorrect": true
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    },
+    {
+      "id": 1001,
+        "name": "The advantages of Typescript are...",
+        "questionTypeId": 1,
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1001,
+                "name": "It assists in code structuring",
+                "isCorrect": false
+            },
+            {
+                "id": 1056,
+                "questionId": 1001,
+                "name": "It applies class-based object oriented programming",
+                "isCorrect": false
+            },
+            {
+                "id": 1057,
+                "questionId": 1001,
+                "name": "It introduces coding guidelines",
+                "isCorrect": false
+            },
+            {
+                "id": 1058,
+                "questionId": 1001,
+                "name": "All of the above",
+                "isCorrect": true
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    },
+    {
+      "id": 1001,
+        "name": "What variable scopes are available in Typescript?",
+        "questionTypeId": 1,
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1001,
+                "name": "Global Scope",
+                "isCorrect": false
+            },
+            {
+                "id": 1056,
+                "questionId": 1001,
+                "name": "Local Scope",
+                "isCorrect": false
+            },
+            {
+                "id": 1057,
+                "questionId": 1001,
+                "name": "Class Scope",
+                "isCorrect": false
+            },
+            {
+                "id": 1058,
+                "questionId": 1001,
+                "name": "All of the above",
+                "isCorrect": true
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    },
+    {
+      "id": 1001,
+        "name": "Which of the following options below power the interactive Typescript experience in Visual Studio, Vs Code, Sublime, the TypeScript playground and other editor. ",
+        "questionTypeId": 1,
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1001,
+                "name": "Typescript main",
+                "isCorrect": false
+            },
+            {
+                "id": 1056,
+                "questionId": 1001,
+                "name": "TypeScript language",
+                "isCorrect": true
+            },
+            {
+                "id": 1057,
+                "questionId": 1001,
+                "name": "Typescript Compiler",
+                "isCorrect": false
+            },
+            {
+                "id": 1058,
+                "questionId": 1001,
+                "name": "TypeScript method",
+                "isCorrect": false
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    },
+    {
+      "id": 1001,
+        "name": "Which of the following statements below is true about the variables in TypeScript?",
+        "questionTypeId": 1,
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1001,
+                "name": "A variable name should include both alphabets and numeric digits.",
+                "isCorrect": false
+            },
+            {
+                "id": 1056,
+                "questionId": 1001,
+                "name": "A variable name cannot start with a digit.",
+                "isCorrect": false
+            },
+            {
+                "id": 1057,
+                "questionId": 1001,
+                "name": "It cannot include spaces and special characters except for dollar ($) sign and underscore (_).",
+                "isCorrect": false
+            },
+            {
+                "id": 1058,
+                "questionId": 1001,
+                "name": "All of the above",
+                "isCorrect": true
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    }
+  ]
+}

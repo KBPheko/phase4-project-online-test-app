@@ -38,7 +38,7 @@
         {
           "id": 1001,
             "name": "Which of the following companies has developed and designed TypeScript?",
-            "questionTypeId": 2,
+            "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
@@ -74,7 +74,7 @@
         {
           "id": 1001,
             "name": "Which is the typing principle of typescript?",
-            "questionTypeId": 2,
+            "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
@@ -110,7 +110,7 @@
         {
           "id": 1001,
             "name": "Which of the following filenames is the extension for typescript?",
-            "questionTypeId": 2,
+            "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
@@ -146,7 +146,7 @@
         {
           "id": 1001,
             "name": "Which of the computer programming languanges below has influenced the creation of typescript?",
-            "questionTypeId": 2,
+            "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
@@ -182,7 +182,7 @@
         {
           "id": 1001,
             "name": "The advantages of Typescript are...",
-            "questionTypeId": 2,
+            "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
@@ -218,7 +218,7 @@
         {
           "id": 1001,
             "name": "What variable scopes are available in Typescript?",
-            "questionTypeId": 2,
+            "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,

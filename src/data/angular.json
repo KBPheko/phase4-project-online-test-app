@@ -1,0 +1,205 @@
+{
+  "id": 1,
+  "name": "Angular",
+  "description": "A basic Angular quiz for scholars who would like to prepare for an Angular Exam",
+  "questions": [
+    {
+        "id": 1001,
+        "name": "In Angular, you can pass data from the parent component to the child component by using: ",
+        "questionTypeId": 1,
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1001,
+                "name": "@Output()",
+                "isCorrect": false
+            },
+            {
+                "id": 1056,
+                "questionId": 1001,
+                "name": "@Input()",
+                "isCorrect": true
+            },
+            {
+                "id": 1057,
+                "questionId": 1001,
+                "name": "Input",
+                "isCorrect": false
+            },
+            {
+                "id": 1058,
+                "questionId": 1001,
+                "name": "Input",
+                "isCorrect": false
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    },
+    {
+      "id": 1001,
+      "name": "In Angular, you can pass data from the child component to the parent component by using: ",
+      "questionTypeId": 1,
+      "options": [
+          {
+              "id": 1055,
+              "questionId": 1001,
+              "name": "@Output()",
+              "isCorrect": true
+          },
+          {
+              "id": 1056,
+              "questionId": 1001,
+              "name": "@Input()",
+              "isCorrect": false
+          },
+          {
+              "id": 1057,
+              "questionId": 1001,
+              "name": "Input",
+              "isCorrect": false
+          },
+          {
+              "id": 1058,
+              "questionId": 1001,
+              "name": "Input",
+              "isCorrect": false
+          }
+      ],
+      "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+      }
+    },
+    {
+      "id": 1001,
+      "name": "Which directive connects the value of the controls to the data? ",
+      "questionTypeId": 1,
+      "options": [
+          {
+              "id": 1055,
+              "questionId": 1001,
+              "name": "ng-app",
+              "isCorrect": false
+          },
+          {
+              "id": 1056,
+              "questionId": 1001,
+              "name": "ng-init",
+              "isCorrect": false
+          },
+          {
+              "id": 1057,
+              "questionId": 1001,
+              "name": "ng-model",
+              "isCorrect": true
+          }
+      ],
+      "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+      }
+    },
+    {
+      "id": 1001,
+      "name": "Which directive modifies DOM hierarchy?",
+      "questionTypeId": 1,
+      "options": [
+          {
+              "id": 1055,
+              "questionId": 1001,
+              "name": "Structural directive",
+              "isCorrect": true
+          },
+          {
+              "id": 1056,
+              "questionId": 1001,
+              "name": "Attribute directive",
+              "isCorrect": false
+          }
+      ],
+      "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+      }
+    },
+    {
+      "id": 1001,
+      "name": "Which is the correct form control class name that is set to true via [(ngModel)] whenever value is changed? ",
+      "questionTypeId": 1,
+      "options": [
+          {
+              "id": 1055,
+              "questionId": 1001,
+              "name": ".ng-invalid",
+              "isCorrect": false
+          },
+          {
+              "id": 1056,
+              "questionId": 1001,
+              "name": ".ng-pending",
+              "isCorrect": false
+          },
+          {
+              "id": 1057,
+              "questionId": 1001,
+              "name": ".ng-pristine",
+              "isCorrect": false
+          },
+          {
+              "id": 1058,
+              "questionId": 1001,
+              "name": ".ng-dirty",
+              "isCorrect": true
+          }
+      ],
+      "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+      }
+    },
+    {
+      "id": 1001,
+      "name": "How many instancesof services will be created if you provide a custom service in two components' `providers` section of @Component decorator? ",
+      "questionTypeId": 1,
+      "options": [
+          {
+              "id": 1055,
+              "questionId": 1001,
+              "name": "1",
+              "isCorrect": false
+          },
+          {
+              "id": 1056,
+              "questionId": 1001,
+              "name": "2",
+              "isCorrect": true
+          },
+          {
+              "id": 1057,
+              "questionId": 1001,
+              "name": "3",
+              "isCorrect": false
+          },
+          {
+              "id": 1058,
+              "questionId": 1001,
+              "name": "4",
+              "isCorrect": false
+          }
+      ],
+      "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+      }
+    }
+  ]
+}
