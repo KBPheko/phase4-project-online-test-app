@@ -11,7 +11,7 @@ export class QuizService {
   //Get quizes by ID
 
   //Typescript
-  getAllTSQuestions(): Observable<Test>{
+  getAllTSQuestions(): Observable<Test[]>{
     return this.http.get<Test[]>('http://localhost:3000/quiz/1');
   }
 
