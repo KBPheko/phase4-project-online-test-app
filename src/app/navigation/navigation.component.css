@@ -1,0 +1,12 @@
+.navbar{
+  background-color: #829fb8;
+  color: #fff;
+
+}
+.navbar navbar-expand-lg{
+  color: #ffff !important ;
+}
+.navbar-brand{
+  font-size: 30px;
+  color: #fff;
+}

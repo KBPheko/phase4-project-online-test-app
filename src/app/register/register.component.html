@@ -1,0 +1,23 @@
+<form>
+
+  <h2>Register</h2>
+  <div class="mb-3">
+    <label for="first_name" class="form-label">First Name</label>
+    <input type="text" class="form-control" name="first_name" autocomplete="off" required placeholder="e.g John" id="first_name" [(ngModel)]="user.first_name" />
+  </div>
+  <div class="mb-3">
+    <label for="last_name" class="form-label">Last Name</label>
+    <input type="text" class="form-control" name="last_name" id="last_name" placeholder="e.g Doe" autocomplete="off" required [(ngModel)]="user.last_name" />
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" name="email" id="email" placeholder="e.g john.doe@gmail.com" required autocomplete="off" [(ngModel)]="user.email" />
+  </div>
+  <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input type="password" class="form-control" name="password" id="password" placeholder="*****" autocomplete="off" required [(ngModel)]="user.password" />
+  </div>
+  <br>
+  <button type="submit" class="btn btn-secondary" (click)="registerUser()">Create</button>
+</form>
+<p>Already have an account? <a (click)="login()">Sign In</a></p>

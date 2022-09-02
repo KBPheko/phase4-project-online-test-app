@@ -1,0 +1,16 @@
+
+<h2 >Welcome to Quizzes & Trivia {{user}}</h2>
+<!--Welcome Message-->
+<div class="text-center" *ngIf="f1">
+  <h3>Ready to take your test?</h3>
+  <p>Select the button below to start your quiz </p>
+  <p style="color: red">Please note that once you click this button, you cannot go cancel & go back.
+  So please ensure that you are ready to begin. Ready?</p> <br>
+  <input type="button" [value]="name" (click)="begin()" class="btn btn-outline-success" />
+
+</div>
+ <!--Rules-->
+ <div *ngIf="f2">
+  <app-rules></app-rules>
+</div>
+

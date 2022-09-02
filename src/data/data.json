@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1001,
+      "first_name": "Karabo",
+      "last_name": "Pheko",
+      "email": "pheko.karabo@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 1002,
+      "first_name": "Akash",
+      "last_name": "Kale",
+      "email": "kale.akash@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 1003,
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "doe.john@gmail.com",
+      "password": "000"
+    },
+    {
+      "id": 1004,
+      "first_name": "George",
+      "last_name": "Loslo",
+      "email": "lolso.george@gmail.com",
+      "password": "0000"
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "name": "Java",
+      "description": "Java Quiz (on Data Structures, Design Patterns, Maven, etc)",
+      "questions": []
+    },
+    {
+      "id": 2,
+      "name": "Javascript",
+      "description": "A basic JavaScript Quiz for Javascript developers, newbies, and enthusiasts",
+      "questions": []
+    },
+    {
+      "id": 3,
+      "name": "Angular",
+      "description": "A basic Angular quiz for scholars who would like to prepare for an Angular Exam",
+      "questions": []
+    }
+  ]
+}

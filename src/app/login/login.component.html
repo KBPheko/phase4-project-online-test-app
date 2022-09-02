@@ -1,0 +1,15 @@
+<form>
+
+  <h2>Login</h2>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="text" class="form-control" name="email" id="email" [(ngModel)]="user.email" />
+  </div>
+  <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input type="password" class="form-control" name="password" id="password" [(ngModel)]="user.password" />
+  </div>
+  <br>
+  <button type="submit" class="btn btn-secondary" (click)="login()">Login</button>
+</form>
+<p>Don't have an account? <a (click)="register()">register your account</a></p>
