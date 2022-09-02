@@ -32,21 +32,770 @@
   "quiz": [
     {
       "id": 1,
-      "name": "Java",
-      "description": "Java Quiz (on Data Structures, Design Patterns, Maven, etc)",
-      "questions": []
+      "name": "Typescript",
+      "description": "Typescript Quiz for typescript enthuasiasts",
+      "questions": [
+        {
+          "id": 1001,
+            "name": "Which of the following companies has developed and designed TypeScript?",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1001,
+                    "name": "Amazon",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1001,
+                    "name": "Typescript",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1001,
+                    "name": "Microsoft",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1001,
+                    "name": "Oracle",
+                    "isCorrect": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+          "id": 1001,
+            "name": "Which is the typing principle of typescript?",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1001,
+                    "name": "Gradual",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1001,
+                    "name": "Duck",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1001,
+                    "name": "Dynamic",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1001,
+                    "name": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+          "id": 1001,
+            "name": "Which of the following filenames is the extension for typescript?",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1001,
+                    "name": ".tt",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1001,
+                    "name": ".nod",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1001,
+                    "name": ".ts",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1001,
+                    "name": ".txt",
+                    "isCorrect": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+          "id": 1001,
+            "name": "Which of the computer programming languanges below has influenced the creation of typescript?",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1001,
+                    "name": "JavaScript",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1001,
+                    "name": "Java",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1001,
+                    "name": "C#",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1001,
+                    "name": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+          "id": 1001,
+            "name": "The advantages of Typescript are...",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1001,
+                    "name": "It assists in code structuring",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1001,
+                    "name": "It applies class-based object oriented programming",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1001,
+                    "name": "It introduces coding guidelines",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1001,
+                    "name": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+          "id": 1001,
+            "name": "What variable scopes are available in Typescript?",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1001,
+                    "name": "Global Scope",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1001,
+                    "name": "Local Scope",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1001,
+                    "name": "Class Scope",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1001,
+                    "name": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+          "id": 1001,
+            "name": "Which of the following options below power the interactive Typescript experience in Visual Studio, Vs Code, Sublime, the TypeScript playground and other editor. ",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1001,
+                    "name": "Typescript main",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1001,
+                    "name": "TypeScript language",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1001,
+                    "name": "Typescript Compiler",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1001,
+                    "name": "TypeScript method",
+                    "isCorrect": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+          "id": 1001,
+            "name": "Which of the following statements below is true about the variables in TypeScript?",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1001,
+                    "name": "A variable name should include both alphabets and numeric digits.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1001,
+                    "name": "A variable name cannot start with a digit.",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1001,
+                    "name": "It cannot include spaces and special characters except for dollar ($) sign and underscore (_).",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1001,
+                    "name": "All of the above",
+                    "isCorrect": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+      ]
     },
     {
       "id": 2,
       "name": "Javascript",
       "description": "A basic JavaScript Quiz for Javascript developers, newbies, and enthusiasts",
-      "questions": []
+      "questions": [
+
+        {
+          "id": 1001,
+            "name": "Which tag in HTML do we use to put the Javascrip? ",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1001,
+                    "name": "<Javascript>",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1001,
+                    "name": "<script>",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1001,
+                    "name": "<html>",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1001,
+                    "name": "<js>",
+                    "isCorrect": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+          "id": 1002,
+          "name": "Which built-in method calls a function for each element in the array?  ",
+          "questionTypeId": 2,
+          "options": [
+              {
+                  "id": 1055,
+                  "questionId": 1010,
+                  "name": "while()",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1056,
+                  "questionId": 1010,
+                  "name": "forEach",
+                  "isCorrect": true
+              },
+              {
+                  "id": 1057,
+                  "questionId": 1010,
+                  "name": "loop",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1058,
+                  "questionId": 1010,
+                  "name": "takeUntil",
+                  "isCorrect": false
+              }
+          ],
+          "questionType": {
+              "id": 2,
+              "name": "Multiple Choice",
+              "isActive": true
+          }
+        },
+        {
+          "id": 1003,
+          "name": "What is the difference between let and var? ",
+          "questionTypeId": 2,
+          "options": [
+              {
+                  "id": 1055,
+                  "questionId": 1010,
+                  "name": "let has a local scope",
+                  "isCorrect": true
+              },
+              {
+                  "id": 1056,
+                  "questionId": 1010,
+                  "name": "var is a new data type",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1057,
+                  "questionId": 1010,
+                  "name": "Both are the same thing",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1058,
+                  "questionId": 1010,
+                  "name": "let consumes more CPU and space",
+                  "isCorrect": false
+              }
+          ],
+          "questionType": {
+              "id": 2,
+              "name": "Multiple Choice",
+              "isActive": true
+          }
+      },
+      {
+          "id": 1004,
+          "name": "What is TypeScript?",
+          "questionTypeId": 2,
+          "options": [
+              {
+                  "id": 1055,
+                  "questionId": 1010,
+                  "name": "A Language based on Javascript",
+                  "isCorrect": true
+              },
+              {
+                  "id": 1056,
+                  "questionId": 1010,
+                  "name": "A DataType Collection of Javascript",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1057,
+                  "questionId": 1010,
+                  "name": "script that runs on browser",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1058,
+                  "questionId": 1010,
+                  "name": "None of the above",
+                  "isCorrect": false
+              }
+          ],
+          "questionType": {
+              "id": 2,
+              "name": "Multiple Choice",
+              "isActive": true
+          }
+      },
+      {
+          "id": 1005,
+          "name": "Which of the following is the correct syntex for arrow functions? ",
+          "questionTypeId": 2,
+          "options": [
+              {
+                  "id": 1055,
+                  "questionId": 1010,
+                  "name": "a -> { return b; }",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1056,
+                  "questionId": 1010,
+                  "name": "x <- x + 5;",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1057,
+                  "questionId": 1010,
+                  "name": "x <= x + y;",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1058,
+                  "questionId": 1010,
+                  "name": "x => x + 5;",
+                  "isCorrect": true
+              }
+          ],
+          "questionType": {
+              "id": 2,
+              "name": "Multiple Choice",
+              "isActive": true
+          }
+      }
+      ]
     },
     {
       "id": 3,
       "name": "Angular",
       "description": "A basic Angular quiz for scholars who would like to prepare for an Angular Exam",
-      "questions": []
+      "questions": [
+        {
+            "id": 1001,
+            "name": "In Angular, you can pass data from the parent component to the child component by using: ",
+            "questionTypeId": 3,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1001,
+                    "name": "@Output()",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1001,
+                    "name": "@Input()",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1001,
+                    "name": "Input",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1001,
+                    "name": "Input",
+                    "isCorrect": false
+                }
+            ],
+            "questionType": {
+                "id": 4,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+          "id": 1001,
+          "name": "In Angular, you can pass data from the child component to the parent component by using: ",
+          "questionTypeId": 3,
+          "options": [
+              {
+                  "id": 1055,
+                  "questionId": 1001,
+                  "name": "@Output()",
+                  "isCorrect": true
+              },
+              {
+                  "id": 1056,
+                  "questionId": 1001,
+                  "name": "@Input()",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1057,
+                  "questionId": 1001,
+                  "name": "Input",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1058,
+                  "questionId": 1001,
+                  "name": "Input",
+                  "isCorrect": false
+              }
+          ],
+          "questionType": {
+              "id": 4,
+              "name": "Multiple Choice",
+              "isActive": true
+          }
+        },
+        {
+          "id": 1001,
+          "name": "Which directive connects the value of the controls to the data? ",
+          "questionTypeId": 3,
+          "options": [
+              {
+                  "id": 1055,
+                  "questionId": 1001,
+                  "name": "ng-app",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1056,
+                  "questionId": 1001,
+                  "name": "ng-init",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1057,
+                  "questionId": 1001,
+                  "name": "ng-model",
+                  "isCorrect": true
+              }
+          ],
+          "questionType": {
+              "id": 4,
+              "name": "Multiple Choice",
+              "isActive": true
+          }
+        },
+        {
+          "id": 1001,
+          "name": "Which directive modifies DOM hierarchy?",
+          "questionTypeId": 3,
+          "options": [
+              {
+                  "id": 1055,
+                  "questionId": 1001,
+                  "name": "Structural directive",
+                  "isCorrect": true
+              },
+              {
+                  "id": 1056,
+                  "questionId": 1001,
+                  "name": "Attribute directive",
+                  "isCorrect": false
+              }
+          ],
+          "questionType": {
+              "id": 4,
+              "name": "Multiple Choice",
+              "isActive": true
+          }
+        },
+        {
+          "id": 1001,
+          "name": "Which is the correct form control class name that is set to true via [(ngModel)] whenever value is changed? ",
+          "questionTypeId": 3,
+          "options": [
+              {
+                  "id": 1055,
+                  "questionId": 1001,
+                  "name": ".ng-invalid",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1056,
+                  "questionId": 1001,
+                  "name": ".ng-pending",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1057,
+                  "questionId": 1001,
+                  "name": ".ng-pristine",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1058,
+                  "questionId": 1001,
+                  "name": ".ng-dirty",
+                  "isCorrect": true
+              }
+          ],
+          "questionType": {
+              "id": 4,
+              "name": "Multiple Choice",
+              "isActive": true
+          }
+        },
+        {
+          "id": 1001,
+          "name": "How many instancesof services will be created if you provide a custom service in two components' `providers` section of @Component decorator? ",
+          "questionTypeId": 3,
+          "options": [
+              {
+                  "id": 1055,
+                  "questionId": 1001,
+                  "name": "1",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1056,
+                  "questionId": 1001,
+                  "name": "2",
+                  "isCorrect": true
+              },
+              {
+                  "id": 1057,
+                  "questionId": 1001,
+                  "name": "3",
+                  "isCorrect": false
+              },
+              {
+                  "id": 1058,
+                  "questionId": 1001,
+                  "name": "4",
+                  "isCorrect": false
+              }
+          ],
+          "questionType": {
+              "id": 4,
+              "name": "Multiple Choice",
+              "isActive": true
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cyber-Security",
+      "description": "A basic cyber-security quiz made up of fundamentals",
+      "questions": [
+        {
+          "id": 1001,
+            "name": " What hacking tool was used by Trinity on the Matrix Movie? ",
+            "questionTypeId": 4,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1001,
+                    "name": "Ettercap",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1001,
+                    "name": "Nmap",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1001,
+                    "name": "CarWhisperer",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1001,
+                    "name": "Aircrack-Ng",
+                    "isCorrect": false
+                }
+            ],
+            "questionType": {
+                "id": 4,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+          "id": 1002,
+            "name": " What does DDoS stand for? ",
+            "questionTypeId": 4,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1002,
+                    "name": "Distributed Denial of Service Attacks",
+                    "isCorrect": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1002,
+                    "name": "Double Dose of Service Attacks",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1002,
+                    "name": "Database Denial of Service Attacks",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1002,
+                    "name": "Data Denial of Service Attacks",
+                    "isCorrect": false
+                }
+            ],
+            "questionType": {
+                "id": 4,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+      ]
     }
   ]
 }

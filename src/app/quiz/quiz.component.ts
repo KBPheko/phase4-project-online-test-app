@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { questions } from '../models/questions';
+import { question } from '../models/question';
 import { QuizService } from '../services/quiz.service';
 
 @Component({
@@ -10,7 +10,7 @@ import { QuizService } from '../services/quiz.service';
 })
 export class QuizComponent implements OnInit {
 
-  listQuestions: Array<questions> = [];
+  listQuestions: Array<question> = [];
 
   constructor( private _router: Router,
                 private _quizService: QuizService ) { }
