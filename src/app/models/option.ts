@@ -10,6 +10,6 @@ export class Option {
         this.id = data.id;
         this.questionId = data.questionId;
         this.name = data.name;
-        this.isCorrect = data.isAnswer;
+        this.isCorrect = data.isCorrect;
     }
 }

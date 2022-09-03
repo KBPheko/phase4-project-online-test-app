@@ -11,18 +11,19 @@ export class NavigationComponent implements OnInit {
   title = 'Quizzes & Trivia';
 
   loggedIn: boolean = false;
+  loggedOut: boolean = true;
 
   constructor( private _authGuard: AuthGuard) { }
 
   ngOnInit(): void {
-    if(this._authGuard.isLoggedIn()) {
+    if (this._authGuard.isLoggedIn()) {
       this.loggedIn = true;
     } else {
       this.loggedIn = false;
     }
   }
 
-  logout(){
+  logout() {
     this._authGuard.logout();
   }
 

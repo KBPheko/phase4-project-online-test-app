@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Test } from '../models/test';
+import { Test } from '../models/app';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -16,23 +16,23 @@ export class QuizService {
   }
   //Javascript
   getAllJSQuestions() : Observable<Test[]>{
-    return this.http.get<Test[]>('http://localhost:3000/quiz');
+    return this.http.get<Test[]>('http://localhost:3000/jsquestions');
   }
   //Angular
   getAllAngQuestions() : Observable<Test[]>{
-    return this.http.get<Test[]>('http://localhost:3000/quiz');
+    return this.http.get<Test[]>('http://localhost:3000/angquestions');
   }
   //Cyber-security
   getAllCSQuestions() : Observable<Test[]>{
-    return this.http.get<Test[]>('http://localhost:3000/quiz');
+    return this.http.get<Test[]>('http://localhost:3000/csquestions');
   }
 
   getAll(){
     return [
       { id: 'data/typescript.json', name: 'Typescript'},
-      { id: 'data/data.json', name: 'Javascript'},
-      { id: 'data/data.json', name: 'Angular'},
-      { id: 'data/data.json', name: 'Cyber-Security'}
+      { id: 'data/javascript.json', name: 'Javascript'},
+      { id: 'data/angular.json', name: 'Angular'},
+      { id: 'data/cybersecurity.json', name: 'Cyber-Security'}
     ]
   }
 

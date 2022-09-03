@@ -10,7 +10,10 @@
           <a class="nav-link active" aria-current="page" routerLink="dashboard">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="quiz">Take Quiz</a>
+          <a class="nav-link" routerLink="aboutus">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contactus">Contact Us</a>
         </li>
         <!--
         <li class="nav-item dropdown">
@@ -31,9 +34,13 @@
       </ul>
 
       <div class="text-end" *ngIf="loggedIn">
-        <a (click)="logout()" class="btn btn-danger"  href="#">Sign Out</a>
+        <a (click)="logout()" class="btn btn-outline-dark me-2" href="#">Sign Out</a>
       </div>
       <form class="d-flex" role="search">
+      <div *ngIf="loggedOut">
+        <a routerLink='login' class="btn btn-outline-dark">Sign In</a>
+      </div>
+
        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button> -->
       </form>

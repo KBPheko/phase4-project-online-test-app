@@ -1,15 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { question } from '../models/question';
-import { QuizConfig } from '../models/quiz-configuration';
-import { Test } from '../models/test';
 import { QuizService } from '../services/quiz.service';
-import { Option } from '../models/option';
+import { Option, question, Test, QuizConfig } from '../models/app';
+
 
 @Component({
   selector: 'app-quiz',
   templateUrl: './quiz.component.html',
-  styleUrls: ['./quiz.component.css']
+  styleUrls: ['./quiz.component.css'],
+  providers: [QuizService]
 })
 export class QuizComponent implements OnInit {
 
@@ -22,7 +21,7 @@ export class QuizComponent implements OnInit {
     'allowBack': true,
     'allowReview': true,
     'autoMove': false,  // if true, it will move to next question when answered.
-    'duration': 300,  // indicates the time (in secs) in which the test needs to be finished
+    'duration': 180,  // indicates the time (in secs) in which the test needs to be finished
     'pageSize': 1,
     'requiredAll': false,  // indicates if you must answer all the questions before submitting.
     'richText': false,
@@ -51,11 +50,12 @@ export class QuizComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.quizes = this._quizService.getAll(); //fetches quizes from backend
+    this.quizes = this._quizService.getAll(); //fetches all quizes from quiz service
     this.quizName = this.quizes[0].id;
     this.loadQuiz(this.quizName);
 
   }
+
   tick() {
     const now = new Date();
     const diff = (now.getTime() - this.startTime.getTime()) / 1000;
@@ -64,6 +64,7 @@ export class QuizComponent implements OnInit {
     }
     this.ellapsedTime = this.parseTime(diff);
   }
+
   parseTime(totalSeconds: number) {
     let mins: string | number = Math.floor(totalSeconds / 60);
     let secs: string | number = Math.round(totalSeconds % 60);
@@ -111,7 +112,7 @@ export class QuizComponent implements OnInit {
     let answers = [];
     this.quiz.questions.forEach(i => answers.push({ 'testId': this.id , 'questionId': i.id, 'answered': i.answered}));
 
-    alert('You are about to submit the test...!!')
+    alert('Press ok to submit quiz')
     console.log(this.quiz.questions);
     this.mode = 'result';
   }

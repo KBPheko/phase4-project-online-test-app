@@ -2,7 +2,7 @@ import { Option } from "./option";
 
 export class question {
 
-  id: number;
+    id: number;
     name: string;
     questionTypeId: number;
     options: Option[];
