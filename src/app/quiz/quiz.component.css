@@ -1,0 +1,10 @@
+*{
+  color: black;
+}
+.row-main{
+  background: rgb(216, 215, 215);
+  padding: 20px;
+}
+.buttons{
+  justify-content: center;
+}

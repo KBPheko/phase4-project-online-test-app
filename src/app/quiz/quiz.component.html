@@ -1,13 +1,9 @@
 <div class="row">
 
-    <div class="col-6">
-        <h3>Online Quiz</h3>
-    </div>
-
     <!--Lets user choose a test that they want to take-->
     <!--Default display is Javascript Test-->
-    <div class="col-6 text-right">
-        Choose a Test:
+    <div class="text-center">
+        Choose a Quiz:
        <select class="form-select" name="" id="" [(ngModel)]="quizName" (change)="loadQuiz(quizName)">
             <option value="" *ngFor="let quiz of quizes" [value]="quiz.id">{{quiz.name}}</option>
         </select>
@@ -17,7 +13,7 @@
 <hr>
 <!--Displays name of quiz that the candidate is currectly taking-->
 
-<div id="quiz" class="row">
+<div id="quiz" class="row-main">
     <h2 class="text-center font-weight-normal">{{quiz.name}}</h2>
     <p class="text-center">{{quiz.description}}</p>
     <hr />
@@ -26,10 +22,15 @@
 
     <div  *ngIf="mode=='quiz' && quiz">
         <div *ngFor="let question of filteredQuestions;" >
-          <div class="badge badge-dark" >Question {{pager.index + 1}} of {{pager.count}}.</div>
-          <div class="row text-right">
-            <div *ngIf="config.duration" class="badge badge-info float-right">Time: {{ellapsedTime}} / {{duration}}</div>
+
+          <div class="row">
+            <div class="col-6" >Question {{pager.index + 1}} of {{pager.count}}.</div>
+             <div class="col-6">
+            <div *ngIf="config.duration" class="">Time: {{ellapsedTime}} / {{duration}}</div>
           </div>
+          </div>
+
+          <br>
 
           <h3 class="font-weight-normal">{{pager.index + 1}}.
             <span [innerHTML]="question.name"></span>
@@ -48,7 +49,7 @@
         <div class="text-center">
           <button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(0);">First</button>
           <button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(pager.index - 1);">Prev</button>
-          <button class="btn btn-danger" (click)="goTo(pager.index + 1);">Next</button>
+          <button class="btn btn-default" (click)="goTo(pager.index + 1);">Next</button>
           <button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(pager.count - 1);">Last</button>
         </div>
       </div>
@@ -75,11 +76,10 @@
                     Your answer is {{isCorrect(question)}} . </div>
             </div>
         </div>
-        <h3 class="alert alert-light text-center">Close this window.</h3>
     </div>
     <hr />
     <div *ngIf="mode!='result' text-center">
-        <button class="btn btn-info" (click)="mode = 'quiz'">Back To Assessment</button> |
+        <button class="btn btn-info" (click)="mode = 'quiz'">Back to Quiz</button> |
         <button class="btn btn-warning" (click)="mode = 'review'">Review Answers</button> |
         <button class="btn btn-primary" (click)="onSubmit();">Submit Quiz</button>
     </div>
