@@ -29,10 +29,10 @@ export class QuizService {
 
   getAll(){
     return [
-      { id: 'data/typescript.json', name: 'Typescript'},
-      { id: 'data/javascipt.json', name: 'Javascript'},
       { id: 'data/angular.json', name: 'Angular'},
-      { id: 'data/cybersecurity.json', name: 'Cyber-Security'}
+      { id: 'data/cybersecurity.json', name: 'Cyber-Security'},
+      { id: 'data/typescript.json', name: 'Typescript'},
+      { id: 'data/javascipt.json', name: 'Javascript'}
     ]
   }
 

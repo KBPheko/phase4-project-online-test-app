@@ -5,7 +5,7 @@
   "questions": [
       {
           "id": 1001,
-          "name": "Which tag in HTML do we use to put the Javascrip? ",
+          "name": "Which tag in HTML do we use to put the Javascript code? ",
           "questionTypeId": 1,
           "options": [
               {
@@ -185,7 +185,7 @@
       },
       {
           "id": 1006,
-          "name": "Whichnew ES6 syntax helps with formatting output text - mixing varibales string literals, for example. ",
+          "name": "Which new ES6 syntax helps with formatting output text - mixing variables string literals, for example. ",
           "questionTypeId": 1,
           "options": [
               {
