@@ -14,8 +14,8 @@ import { UpdatePasswordComponent } from './update-password/update-password.compo
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-  { path: 'dashboard', component: DashboardComponent},
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  { path: 'dashboard', component: DashboardComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'quiz', component: QuizComponent },

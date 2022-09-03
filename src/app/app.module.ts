@@ -19,6 +19,7 @@ import { FormsModule } from '@angular/forms';
 import { UpdatePasswordComponent } from './update-password/update-password.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { AuthGuard } from './services/auth.guard';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,7 @@ import { ContactusComponent } from './contactus/contactus.component';
     FormsModule
 
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

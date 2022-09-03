@@ -25,15 +25,16 @@ export class LoginComponent implements OnInit {
 
   //second attempt
   login(){
+
     this._userService.getUsers().subscribe(result => {
       console.log(result);
       this.userList = result;
-      for(let i = 0; i < this.userList.length; i++) {
-        if(this.userList[i].email == this.user.email){
+      for (let i = 0; i < this.userList.length; i++) {
+        if (this.userList[i].email == this.user.email && this.userList[i].password == this.user.password) {
           localStorage.setItem('isLoggedIn', "true");
           localStorage.setItem('user', this.user.email);
-          alert('You are logged in!');
-          this.router.navigate(['dashboard']);
+          alert('You are logged in successfully:)');
+          this.router.navigate(['/dashboard']);
         }
       }
     })
